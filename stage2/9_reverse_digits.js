@@ -11,9 +11,13 @@
 class Situation {
     reverseDigits(n) {
         let value = ""+n
-        return parseInt(value[2]+value[1]+value[0])
+        let newStr = ""
+        for (let i = value.length-1; i >= 0; i--) {
+            newStr += value[i]
+        }
+        return parseInt(newStr)
     }
 }
 
 const sit = new Situation();
-console.log(sit.reverseDigits(624))
+console.log(sit.reverseDigits(1234567))
