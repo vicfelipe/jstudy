@@ -1,15 +1,13 @@
 /**
- * Nth Fibonacci Number
+ * Program for Decimal to Binary Conversion
  *
- * Given a positive integer n, the task is to find the nth Fibonacci number.
+ * Given a decimal number n, the task is to convert the given decimal number into an equivalent binary number.
  * 
- * Input: n = 2
- * Output: 1 
- * Explanation: 1 is the 2nd number of Fibonacci series.
+ * Input: n = 12
+ * Output: “1100”
  * 
- * Input: n = 5
- * Output: 5
- * Explanation: 5 is the 5th number of Fibonacci series.
+ * Input: n = 17
+ * Output: “10001”
  * 
  * @class Situation
  */
